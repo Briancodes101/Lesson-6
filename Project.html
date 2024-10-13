@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission sheet</title>
+    </head>
+    <body>
+        <h1>Student detail form</h1>
+        <fieldset>
+            <legend>Personal Detail form</legend>
+            <form>           
+                <label>Full name:</label>
+                <input type="text" id="fname" placeholder="Enter name"><br><br>
+                <label>Email:</label>
+                <input type="email" id="email" placeholder="Enter email"><br><br>
+                <label>Password:</label>
+                <input type="password" id="femailpassword" placeholder="This will be hidden"><br><br>
+                <label>Contact</label>
+                <input type="number" id="+234" placeholder="+234 *** *** ****"><br><br>
+                <label>Gender</label><br>
+                <input type="radio" id="female" name="gender" value="Female">Female<br>
+                <input type="radio" id="male" name="gender" value="Male">Male<br><br>
+                <label>State of Origin</label>
+                <select>
+                    <option>Abia</option>
+                    <option>Abuja</option>
+                    <option>Adamawa</option>
+                    <option>Akwa Ibom</option>
+                    <option>Anambra</option>
+                    <option>Bauchi</option>
+                    <option>Bayelsa</option>
+                    <option>Benue</option>
+                    <option>Borno</option>
+                    <option>Cross River</option>
+                    <option>Delta</option>
+                    <option>Ebonyi</option>
+                    <option>Edo</option>
+                    <option>Ekiti</option>
+                    <option>Enugu</option>
+                    <option>Gombe</option>
+                    <option>Imo</option>
+                    <option>Jigawa</option>
+                    <option>Kaduna</option>
+                    <option>Kano</option>
+                    <option>Katsina</option>
+                    <option>Kebbi</option>
+                    <option>Kogi</option>
+                    <option>Kwara</option>
+                    <option>Lagos</option>
+                    <option>Nasarawa</option>
+                    <option>Niger</option>
+                    <option>Ogun</option>
+                    <option>Ondo</option>
+                    <option>Osun</option>
+                    <option>Oyo</option>
+                    <option>Plateau</option>
+                    <option>Rivers</option>
+                    <option>Sokoto</option>
+                    <option>Taraba</option>
+                    <option>Yobe</option>
+                    <option>Zamfara</option>
+                </select><br><br>
+                <label>Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit">
+            </form>
+        </fieldset>
+        <h2>Students report form</h2>
+        <fieldset>
+            <legend><b>Please fill the form</b></legend>
+            <form action="/action_page.php" oninput="x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value)+parseInt(m4.value)+parseInt(m5.value)+parseInt(m6.value)+parseInt(m7.value)+parseInt(m8.value)+parseInt(m9.value)+parseInt(m10.value))/10">
+                <label>Name:</label>
+                <input type="text" id="name"><br><br>
+                <label>Class:</label>
+                <input type="text" id="class"><br><br>
+                <label>Admission Number:</label>
+                <input type="number" id="number"><br><br>
+                <label>Student password:</label>
+                <input type="password" id="password"><br><br>
+                <label>Enter Scores</label><br>
+                <select name="Subject" id="subject">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m1" name="m1"><br>
+                <select name="Subject2" id="subject2">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m2" name="m2"><br>
+                <select name="Subject3" id="subject3">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m3" name="m3"><br>
+                <select name="Subject4" id="subject4">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m4" name="m4"><br>
+                <select name="Subject5" id="subject5">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m5" name="m5"><br>
+                <select name="Subject6" id="subject6">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m6" name="m6"><br>
+                <select name="Subject7" id="subject7">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m7" name="m7"><br>
+                <select name="Subject8" id="subject8">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m8" name="m8"><br>
+                <select name="Subject9" id="subject9">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m9" name="m9"><br>
+                <select name="Subject10" id="subject10">
+                    <option>Mathematics</option>
+                    <option>English Language</option>
+                    <option>Biology</option>
+                    <option>Civic Education</option>
+                    <option>Economics</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Agricultural Science</option>
+                    <option>Further Mathematics</option>
+                    <option>Technical Drawing</option>
+                    <option>Government</option>
+                    <option>Literature-in-English</option>
+                    <option>CRS</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                    <option>Yoruba</option>
+                    <option>Data Processing</option>
+                    <option>Computer</option>
+                    <option>Accounting</option>
+                    <option>Marketing</option>
+                </select>
+                <input type="number" id="m10" name="m10"><br><br>
+                Average: <output name="x" for="m1 m2 m3 m4 m5 m6 m7 m8 m9 m10"></output>
+            </form>
+        </fieldset>
+    </body>
+</html>
